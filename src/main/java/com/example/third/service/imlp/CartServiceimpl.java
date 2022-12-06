@@ -4,13 +4,13 @@ import java.util.HashMap;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Repository;
 
 import com.example.third.dao.cartitemDao;
 import com.example.third.entity.cartitem;
 import com.example.third.service.CartService;
 
-@Service
+@Repository
 public class CartServiceimpl implements CartService {
     @Autowired
     cartitemDao cartitemDao;
